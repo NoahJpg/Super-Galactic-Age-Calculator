@@ -33,6 +33,8 @@ describe('UserData', () => {
     expect(user.jupiterAge(user.userAge())).toEqual(2)
   });
 
-
+  test("should correctly determine how many years have passed on each planet since past birthday", () => {
+    expect(user.yearsPast(user.userAge())).toEqual(5)
+  });
 
 });

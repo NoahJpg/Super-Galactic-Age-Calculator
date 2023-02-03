@@ -5,7 +5,6 @@ export default class UserData {
     this.month = month;
   }
 
-
   userAge() {
     let birthday = new Date(this.year, this.month, this.day);
     let today = Date.now() - birthday;
@@ -31,5 +30,9 @@ export default class UserData {
   jupiterAge(age) {
     let jupiterAge = Math.floor(age / 11.86);
     return jupiterAge;
+  }
+
+  yearsPast(age) {
+ 
   }
 }
