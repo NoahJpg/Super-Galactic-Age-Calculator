@@ -44,4 +44,15 @@ describe('UserData', () => {
     })
   });
 
+  test("should correctly determine how many years have yet to pass until a future birthday", () => {
+    let yearsFuture = user.yearsFuture(30);
+    expect(yearsFuture).toEqual({
+      "Earth": 5,
+      "Mercury": 2.83,
+      "Venus": 8.06,
+      "Mars": 2.66,
+      "Jupiter": 0.42,
+    })
+  });
+
 });

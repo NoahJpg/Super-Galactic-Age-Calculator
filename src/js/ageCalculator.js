@@ -43,4 +43,8 @@ export default class UserData {
       "Jupiter": this.jupiterAge(ageDifference),
     };
   }
+
+  yearsFuture(futureAge) {
+    
+  }
 }
