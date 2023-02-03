@@ -22,4 +22,8 @@ export default class UserData {
     let venusAge = Math.floor(age / .62);
     return venusAge;
   }
+
+  marsAge(age) {
+ 
+  }
 }
