@@ -15,4 +15,8 @@ export default class UserData {
     age--;
     return age;
   }
+
+  mercuryAge(age) {
+
+  }
 }
