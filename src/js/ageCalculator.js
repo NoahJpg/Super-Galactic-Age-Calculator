@@ -27,4 +27,8 @@ export default class UserData {
     let marsAge = Math.floor(age / 1.88);
     return marsAge;
   }
+
+  jupiterAge(age) {
+    
+  }
 }
