@@ -7,16 +7,13 @@ export default class UserData {
 
 
   userAge() {
-    let today = new Date();
     let birthday = new Date(this.year, this.month, this.day);
-    let age = today.getFullYear() - birthday.getFullYear();
-    let month = today.getMonth() - birthday.getMonth();
-    if (month < 0 || month === 0 && today.getDate() < birthday.getDate())
-    age--;
+    let today = Date.now() - birthday;
+    let age = Math.floor(today / (365 * 24 * 60 * 60 * 1000));
     return age;
   }
 
-  mercuryAge(age) {
+  // mercuryAge(age) {
 
-  }
+  // }
 }
