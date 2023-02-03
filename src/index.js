@@ -15,18 +15,18 @@ document.addEventListener("DOMContentLoaded", function() {
     const userData = new UserData(day, month, year);
 
     const mercuryAge = document.getElementById("mercury-age");
-    mercuryAge.innerHTML = `Your age on Mercury: ${userData.mercuryAge(userData.userAge())} years`;
+    mercuryAge.innerHTML = `Your age on Mercury: ${userData.mercuryAge(userData.userAge())} years old`;
 
     const venusAge = document.getElementById("venus-age");
-    venusAge.innerHTML = `Your age on Venus: ${userData.venusAge(userData.userAge())} years`;
+    venusAge.innerHTML = `Your age on Venus: ${userData.venusAge(userData.userAge())} years old`;
 
     const earthAge = document.getElementById("earth-age");
-    earthAge.innerHTML = `Your age on Earth: ${userData.userAge()} years`;
+    earthAge.innerHTML = `Your age on Earth: ${userData.userAge()} years old`;
 
     const marsAge = document.getElementById("mars-age");
-    marsAge.innerHTML = `Your age on Mars: ${userData.marsAge(userData.userAge())} years`;
+    marsAge.innerHTML = `Your age on Mars: ${userData.marsAge(userData.userAge())} years old`;
 
     const jupiterAge = document.getElementById("jupiter-age");
-    jupiterAge.innerHTML = `Your age on Jupiter: ${userData.jupiterAge(userData.userAge())} years`;
+    jupiterAge.innerHTML = `Your age on Jupiter: ${userData.jupiterAge(userData.userAge())} years old`;
   });
 });

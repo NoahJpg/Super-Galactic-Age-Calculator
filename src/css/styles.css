@@ -1,23 +1,6 @@
 body {
   background-color: lightblue;
-}
-.mercury-age {
-  font-weight: bold;
-  font-size: larger;
-}
-.venus-age {
-  font-weight: bold;
-  font-size: larger;
-}
-.earth-age {
-  font-weight: bold;
-  font-size: larger;
-}
-.mars-age {
-  font-weight: bold;
-  font-size: larger;
-}
-.jupiter-age {
-  font-weight: bold;
-  font-size: larger;
+  margin-top: 30px;
+  margin-left: 30px;
+  margin-bottom: 50px;
 }
