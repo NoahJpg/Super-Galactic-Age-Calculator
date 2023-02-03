@@ -29,6 +29,7 @@ export default class UserData {
   }
 
   jupiterAge(age) {
-    
+    let jupiterAge = Math.floor(age / 11.86);
+    return jupiterAge;
   }
 }
