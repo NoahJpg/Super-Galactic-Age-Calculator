@@ -14,6 +14,7 @@ export default class UserData {
   }
 
   mercuryAge(age) {
-    
+    let mercuryAge = Math.floor(age / .24);
+    return mercuryAge;
   }
 }
