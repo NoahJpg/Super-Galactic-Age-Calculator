@@ -34,13 +34,13 @@ describe('UserData', () => {
   });
 
   test("should correctly determine how many years have passed on each planet since past birthday", () => {
-    let yearsPast = user.yearsPast(13);
+    let yearsPast = user.yearsPassed(2);
     expect(yearsPast).toEqual({
-      "Earth": 13,
-      "Mercury": 54.16,
-      "Venus": 8.06,
-      "Mars": 6.91,
-      "Jupiter": 1.09,
+      "Earth": 23,
+      "Mercury": 95.83,
+      "Venus": 37.1,
+      "Mars": 12.23,
+      "Jupiter": 1.94,
     })
   });
 

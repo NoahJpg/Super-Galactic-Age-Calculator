@@ -32,15 +32,7 @@ export default class UserData {
     return Number(jupiterAge.toFixed(2))
   }
 
-  yearsPast(ageDiff) {
-    let currentAge = this.userAge();
-    let ageDifference = currentAge - ageDiff;
-    return {
-      "Earth": ageDiff,
-      "Mercury": this.mercuryAge(ageDifference.toFixed(2)),
-      "Venus": this.venusAge(ageDifference.toFixed(2)),
-      "Mars": this.marsAge(ageDifference.toFixed(2)),
-      "Jupiter": this.jupiterAge(ageDifference.toFixed(2)),
-    };
+  yearsPassed(pastAge) {
+
   }
 }
