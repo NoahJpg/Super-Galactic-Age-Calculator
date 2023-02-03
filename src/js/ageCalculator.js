@@ -1,6 +1,15 @@
-export default class AgeCheck {
+export default class UserData {
   constructor(day, month, year) {
     this.day = day;
     this.year = year;
     this.month = month;
-  }}
+  }
+
+
+  userAge() {
+
+    
+  }
+
+
+}

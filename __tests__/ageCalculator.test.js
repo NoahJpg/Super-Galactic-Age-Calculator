@@ -1,12 +1,22 @@
-import AgeCheck from '../src/js/ageCalculator.js';
+import UserData from '../src/js/ageCalculator.js';
 
-describe('AgeCheck', () => {
+describe('UserData', () => {
+    let user;
+  beforeEach(() => {
+    user = new UserData(1, 11, 1997);
+  })
 
-  test("should correctly determine the user's age", () => {
-    const age = new AgeCheck(1, 11, 1997);
-    expect(age.year).toEqual(1997);
-    expect(age.month).toEqual(11);
-    expect(age.day).toEqual(1);
+  test("should correctly create an AgeCheck object with user's birthday", () => {
+    const userData = new UserData(1, 11, 1997);
+    expect(userData.year).toEqual(1997);
+    expect(userData.month).toEqual(11);
+    expect(userData.day).toEqual(1);
   });
+
+  test("should correctly calculate a users age based on birthday", () => {
+    expect(user.userAge()).toEqual(25);
+  });
+
+
 
 });
