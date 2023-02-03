@@ -19,6 +19,7 @@ export default class UserData {
   }
 
   venusAge(age) {
-
+    let venusAge = Math.floor(age / .62);
+    return venusAge;
   }
 }
