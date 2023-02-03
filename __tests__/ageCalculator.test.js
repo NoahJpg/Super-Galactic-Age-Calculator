@@ -48,7 +48,7 @@ describe('UserData', () => {
     let yearsFuture = user.yearsFuture(30);
     expect(yearsFuture).toEqual({
       "Earth": 5,
-      "Mercury": 2.83,
+      "Mercury": 20.83,
       "Venus": 8.06,
       "Mars": 2.66,
       "Jupiter": 0.42,

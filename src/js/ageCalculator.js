@@ -45,6 +45,14 @@ export default class UserData {
   }
 
   yearsFuture(futureAge) {
-    
+    let currentAge = this.userAge();
+    let ageDifference = futureAge - currentAge;
+    return {
+      "Earth": ageDifference,
+      "Mercury": this.mercuryAge(ageDifference),
+      "Venus": this.venusAge(ageDifference),
+      "Mars": this.marsAge(ageDifference),
+      "Jupiter": this.jupiterAge(ageDifference),
+    };
   }
 }
