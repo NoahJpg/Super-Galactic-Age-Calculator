@@ -9,7 +9,7 @@ export default class UserData {
     let birthday = new Date(this.year, this.month, this.day);
     let today = Date.now() - birthday;
     let age = (today / (365 * 24 * 60 * 60 * 1000));
-    return Math.floor(age)    
+    return Math.floor(age);    
   }
 
   mercuryAge(age) {
