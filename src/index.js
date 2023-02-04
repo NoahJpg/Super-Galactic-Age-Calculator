@@ -1,7 +1,7 @@
 import 'bootstrap';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import './css/styles.css';
-import UserData from './js/ageCalculator.js'
+import UserData from './js/ageCalculator.js';
 
 document.addEventListener("DOMContentLoaded", function() {
   const form = document.getElementById("birthday-form");
