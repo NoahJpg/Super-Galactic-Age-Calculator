@@ -7,6 +7,12 @@ body {
   background-image: url("../img/galaxy.jpg");
   background-size: 1500px;
 }
+
 h3 {
 font-size: xx-large;
+}
+
+.img {
+  float: inherit;
+  filter:drop-shadow(10px 10px 10px #a4bbff)
 }
