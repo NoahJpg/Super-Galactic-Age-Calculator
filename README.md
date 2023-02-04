@@ -1,10 +1,10 @@
-# _template repo_
+# _Super Galactic Age Calculator_
 
 #### By _**Noah Atkinson**_
 
-#### _brief description_
+#### _Returns the users age in planetary years_
 
-https:// link
+https://github.com/NoahJpg/Super-Galactic-Age-Calculator.git
 
 ## Technologies Used
 
@@ -20,10 +20,13 @@ https:// link
 
 ## Description
 
-_INSERT DESCRIPTION_
+_Takes in a user's birthday, then tells them how old they are in years based on the realtive year length of each planet. Also has functionality to calculate how many years have passed on each planet since a past birthday. Also determines how many years have yet to pass until a future birthday_
 
 ## Setup/Installation Requirements
 
+* _Copy above link_
+* _Run "git clone 'link'" in your terminal at a chosen file location_
+* _Run "code ." on that file location_
 * _Install all packages with $ npm install._
 * _Build the project using webpack with $ npm run build_
 * _Start a development server with $ npm run start_
