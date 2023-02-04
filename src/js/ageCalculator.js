@@ -29,7 +29,7 @@ export default class UserData {
 
   jupiterAge(age) {
     let jupiterAge = (age / 11.86);
-    return Number(jupiterAge.toFixed(2))
+    return Number(jupiterAge.toFixed(2));
   }
 
   yearsPassed(pastAge) {
